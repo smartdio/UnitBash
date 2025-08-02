@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "email": "admin@example.com",
+    "firstName": "管理员",
+    "lastName": "用户",
+    "role": "admin",
+    "status": "active",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 2,
+    "username": "testuser",
+    "email": "testuser@example.com",
+    "firstName": "测试",
+    "lastName": "用户",
+    "role": "user",
+    "status": "active",
+    "createdAt": "2024-01-02T00:00:00Z"
+  },
+  {
+    "id": 3,
+    "username": "john_doe",
+    "email": "john.doe@example.com",
+    "firstName": "John",
+    "lastName": "Doe",
+    "role": "user",
+    "status": "active",
+    "createdAt": "2024-01-03T00:00:00Z"
+  }
+]

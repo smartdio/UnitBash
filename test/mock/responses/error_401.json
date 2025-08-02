@@ -1,0 +1,7 @@
+{
+  "success": false,
+  "error": "UNAUTHORIZED",
+  "message": "用户名或密码错误",
+  "code": 401,
+  "timestamp": "2024-01-01T12:00:00Z"
+}

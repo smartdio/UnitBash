@@ -1,0 +1,120 @@
+# UnitBash .gitignore
+# =====================
+
+# 敏感配置文件
+test/config/.env
+test/config/*_local.conf
+
+# 会话和认证文件
+test/.session/
+*.session
+*.token
+
+# 日志文件
+test/logs/
+*.log
+logs/
+
+# 测试报告和临时文件
+test/reports/
+test/downloads/
+test/temp/
+*.tmp
+*.temp
+
+# 测试结果文件
+results.json
+report.json
+test-results/
+coverage/
+
+# 临时和缓存文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 编辑器和IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# 系统文件
+*.pid
+*.seed
+*.pid.lock
+
+# 运行时文件
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# 备份文件
+*.bak
+*.backup
+*.old
+
+# 压缩文件
+*.tar.gz
+*.zip
+*.rar
+
+# Node.js (如果有相关工具)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (如果有相关工具)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 个人配置文件
+.personal/
+.local/
+my_*
+personal_*
+
+# 测试数据文件（如果包含敏感信息）
+test/mock/files/large_*
+test/mock/files/*.pdf
+test/mock/files/*.doc
+test/mock/files/*.docx
+test/mock/files/*.xls
+test/mock/files/*.xlsx
+
+# HTTP响应缓存
+*.response
+*.headers
+test/.cache/
+
+# 临时脚本
+temp_*.sh
+debug_*.sh
+quick_test_*.sh
